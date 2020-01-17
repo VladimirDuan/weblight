@@ -84,7 +84,7 @@
 
       async addLight() {
         const filters = [
-          {vendorId: 0x1209, productId: 0xa800},
+          {vendorId: 0xdead, productId: 0xbeef},
         ];
         try {
           let device = await navigator.usb.requestDevice({filters: filters});
